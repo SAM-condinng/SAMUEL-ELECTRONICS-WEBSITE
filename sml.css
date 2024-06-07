@@ -1,0 +1,36 @@
+body{
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+p{
+
+    font-size: larger;
+}
+
+#box1{
+    border: 4px;
+    border-radius: 200px;
+    cursor: pointer;
+    width:450px;
+    height: 450px;
+    font-size: 65px;
+    text-align:center ;
+    background: linear-gradient(to right,skyblue,red);
+
+    animation: myscale;
+    animation-iteration-count: infinite;
+    animation-duration:2s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+}
+
+
+@keyframes myscale{
+    80%{transform: scale(0.5,0.5)}
+}
+    

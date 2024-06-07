@@ -1,0 +1,376 @@
+body{
+    
+    background-color: #0B1116;
+
+
+   /animation: myali;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-play-state:running;
+    
+}
+
+/*@keyframes myali {
+    0%{ background:linear-gradient( to right,skyblue,lightgreen); }
+    20% { background: linear-gradient( to left,lightyellow,lightgreen); }
+    40% { background:linear-gradient( to right,skyblue,lightgreen); }
+    60% { background: linear-gradient( to left,lightyellow,lightgreen); }
+    80% { background: linear-gradient( to right,skyblue,lightgreen); }
+    100% { background:linear-gradient( to left,lightyellow,lightgreen); }
+}*/
+
+
+
+p{
+    color: green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+}
+
+
+
+h1{
+    color: blue;
+    background:linear-gradient(to left,lightyellow,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-style:inset;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: brown;
+    padding: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: blue;
+
+
+
+    animation: myalo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-play-state:running;
+    
+
+
+    
+}
+@keyframes myalo {
+    0% { background:linear-gradient( to left,skyblue,lightgreen); }
+    20% { background: linear-gradient( to right,lightyellow,lightgreen); }
+    40% { background:linear-gradient( to left,skyblue,lightgreen); }
+    60% { background: linear-gradient( to right,lightyellow,lightgreen); }
+    80% { background: linear-gradient( to left,skyblue,lightgreen); }
+    100% { background:linear-gradient( to right,lightyellow,lightgreen); }
+}
+
+
+
+
+h2{
+    color: blueviolet;
+    background:linear-gradient(to left,lightyellow,lightgreen);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-style:inset;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: brown;
+    padding: 10px;
+    border-bottom-style: dotted;
+    border-bottom-color: blue;
+
+
+    
+    animation: myalo;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    animation-timing-function:linear;
+    animation-play-state:running;
+    
+
+    
+
+}
+
+h1:hover{
+    text-shadow: 10px 10px 10px yellow, 0px 5px 5px red;
+}
+
+h2:hover{
+    text-shadow: 10px 10px 10px yellow, 0px 5px 5px red;
+}
+
+.fa-google{
+color: blue;
+
+
+
+}
+
+
+    
+
+.fa-google:hover{
+    background-color:red;
+
+    animation: myscale;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+}
+
+@keyframes myscale{
+    80%{transform: scale(0.5,0.5)}
+}
+
+.fa-youtube{
+    size: 100px;
+    color: red;
+}
+
+.fa-youtube:hover{
+    background-color:blue;
+
+    animation: myscale;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+}
+
+.fa-twitter{
+
+    color:cyan;
+}
+
+.fa-twitter:hover{
+    background-color:red;
+
+    animation: myscale;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-facebook:hover{
+    background-color:red;
+
+    animation: myscale;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+}
+
+#box1{
+    border: 4px solid;
+    border-radius: 60px;
+    width:250px;
+    height: 150px;
+    font-size: 50px;
+    text-align:center ;
+    background: linear-gradient(to right,skyblue,red);
+
+    animation: myslide;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+    
+}
+
+@keyframes myslade{
+    from{margin-left: 80%;}
+    to{margin-left: 0%;}
+}
+
+
+
+
+#box2 {
+    border: 4px solid;
+    height: 70px;
+    font-size: 50px;
+    text-align: center;
+
+    animation: mycolorChange;
+    animation-iteration-count: infinite;
+    animation-duration:1s;
+    animation-timing-function:linear;
+    animation-play-state: running;
+
+
+}
+
+
+
+
+
+
+
+
+@keyframes mycolorChange {
+    0% { background-color: skyblue; }
+    5% { background-color: orange; }
+    10% { background-color: blue; }
+    15% { background-color: green; }
+    20% { background-color: greenyellow; }
+    25% { background-color: skyblue; }
+    30% { background-color: cyan; }
+    35% { background-color: pink; }
+    40% { background-color: indigo; }
+    45% { background-color: violet; }
+    50% { background-color: brown; }
+    55% { background-color: purple; }
+    60% { background-color: black; }
+    65% { background-color: wheat; }
+    70% { background-color: seagreen; }
+    75% { background-color: hotpink; }
+    80% { background-color: teal; }
+    85% { background-color: turquoise; }
+    90% { background-color: lightgreen; }
+    95% { background-color: orchid; }
+    100% { background-color: darkcyan; }
+}
+
+
+
+
+
+#box3{
+
+
+    border: 4px solid;
+    border-radius: 60px;
+    width:250px;
+    height: 150px;
+    font-size: 50px;
+    text-align:center ;
+    background: linear-gradient(to left,skyblue,red);
+
+    animation: myslade;
+    animation-iteration-count: infinite;
+    animation-duration:60s;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-direction: alternate;
+
+
+}
+
+@keyframes myslide{
+    from{margin-left: 0%;}
+    to{margin-left: 80%;}
+}
+
+#box4{
+     border:4px solid;
+     width:500px;
+     height: 100px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     background:red;
+     text-align: center;
+     text-decoration-color: white;
+
+     animation: mycolors;
+    animation-iteration-count: infinite;
+    animation-duration: 60s;
+    animation-timing-function:linear;
+    animation-play-state: running;
+
+
+     
+}
+
+@keyframes mycolors {
+    0% { background-color: skyblue; }
+    5% { background-color: orange; }
+    10% { background-color: blue; }
+    15% { background-color: green; }
+    20% { background-color: greenyellow; }
+    25% { background-color: skyblue; }
+    30% { background-color: cyan; }
+    35% { background-color: pink; }
+    40% { background-color: indigo; }
+    45% { background-color: violet; }
+    50% { background-color: brown; }
+    55% { background-color: purple; }
+    60% { background-color: black; }
+    65% { background-color: wheat; }
+    70% { background-color: seagreen; }
+    75% { background-color: hotpink; }
+    80% { background-color: teal; }
+    85% { background-color: turquoise; }
+    90% { background-color: lightgreen; }
+    95% { background-color: orchid; }
+    100% { background-color: darkcyan; }
+
+}
+
+#p1{
+
+    color: yellow;
+    font-size: 20px;
+    font-family:sans-serif;
+
+    animation:color;
+    animation-duration: 20s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: paused;
+}
+
+@keyframes color{
+    0% { background-color: black; }
+    5% { background-color: white; }
+    10% { background-color: black; }
+    15% { background-color: white; }
+    20% { background-color: black; }
+    25% { background-color: white; }
+    30% { background-color: black; }
+    35% { background-color: white; }
+    40% { background-color: black; }
+    45% { background-color: white; }
+    50% { background-color: black; }
+    55% { background-color: white; }
+    60% { background-color: black; }
+    65% { background-color: white; }
+    70% { background-color: black; }
+    75% { background-color:white; }
+    80% { background-color: black; }
+    85% { background-color: white; }
+    90% { background-color: black; }
+    95% { background-color:white; }
+    100% { background-color: black; }
+
+}
+
+button:hover{
+    background-color: blue;
+}
+
+button:active{
+    background-color: brown;
+}
+
+
+
+
+
